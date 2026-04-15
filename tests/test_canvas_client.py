@@ -6,7 +6,7 @@ from questcanvas.auth import StaticTokenProvider
 from questcanvas.canvas.client import CanvasClient
 from questcanvas.errors import CanvasRateLimitError
 
-from fakes import FakeAsyncHttpClient, FakeResponse
+from tests.fakes import FakeAsyncHttpClient, FakeResponse
 
 
 class CanvasClientTests(unittest.IsolatedAsyncioTestCase):
